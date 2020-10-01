@@ -111,6 +111,8 @@ namespace XP_Diablo_s_Serial_Monitor
         {
             try
             {
+                if (this.currentSerialPort.IsOpen)
+                    this.currentSerialPort.Close();
                 this.currentSerialPort.BaudRate = Int32.Parse(this.BaudRateTextBox.Text);
                 this.currentSerialPort.DataBits = 8;
                 this.currentSerialPort.StopBits = StopBits.Two;

@@ -10,4 +10,4 @@ Has a few more features than the default Serial Monitor provided by Arduino's ID
 - You can pause your output if you need to look over the data that has been output.
 - Changes the ports and baud rate automatically, as you switch between different ports and baud rates.
 
-This program is free to use, and anyone is willing to add improvments visually or in any other way.
+This program is free to use, and feel free to add improvments visually or other improvements in any other way.

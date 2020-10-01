@@ -3,7 +3,7 @@ Created for my personal use. This program will allow the user to send input and 
 
 ![Example Screenshot](https://i.imgur.com/zepPwTJ.jpeg)
 
-Has a few more features than the default Serial Monitor provided by Arduino's IDE, they work great for my uses.
+Has a few more features than the default Serial Monitor provided by Arduino's IDE.
 
 ## Features
 - You can disconnect and reconnect to the serial port. Making it easier to compile and upload your code to your microcontroller without needing to close and reopen the window.

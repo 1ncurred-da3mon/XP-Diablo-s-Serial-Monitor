@@ -175,11 +175,14 @@ namespace XP_Diablo_s_Serial_Monitor
             this.Controls.Add(this.ClearOutputButton);
             this.Name = "Form1";
             this.Text = "XP Diablo's Serial Monitor";
+            this.FormClosed += Form1_FormClosed;
             this.ResumeLayout(false);
             this.PerformLayout();
         }
 
        
+
+
 
 
 
